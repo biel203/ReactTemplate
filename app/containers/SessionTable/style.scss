@@ -1,0 +1,74 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css");
+
+.app-wrapper {
+  height: 100%;
+  width: 100%;
+
+  .table-content {
+    padding-top: 5em;
+
+    .table-header {
+      padding: 1em;
+      background-color: #ffffff;
+
+      .icon-margin {
+        margin-left: 1em;
+        width: 10px;
+      }
+
+      .btn-success {
+        background-color: #52BC76;
+        border-color: #52BC76;
+        padding: 5px;
+        width: 20%;
+      }
+
+      .search-form-input {
+        width: 55%;
+        float: right;
+
+        .form-control.form-control-sm {
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+          border-top-left-radius: 0.4rem;
+          border-bottom-left-radius: 0.4rem;
+          border: 3px solid #1E5168;
+
+          &::-webkit-input-placeholder { 
+            font-family: FontAwesome;
+            font-weight: normal;
+            overflow: visible;
+            display: inline-block !important;
+            text-align: center
+            }
+            
+            &::-moz-placeholder  { 
+              font-family: FontAwesome;
+              font-weight: normal;
+              overflow: visible;
+              display: inline-block !important;
+              text-align: center
+            }
+            
+            &:-ms-input-placeholder  { 
+              font-family: FontAwesome;
+              font-weight: normal;
+              overflow: visible;
+              display: inline-block !important;
+              text-align: center
+            }
+        }
+
+        .input-group {
+          .input-group-append {
+            .input-group-text {
+              background-color: #1E5168;
+              border: 1px solid #1E5168;
+              color: white
+            }
+          }
+        }
+      }
+    }
+  }
+}

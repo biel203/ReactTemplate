@@ -1,0 +1,38 @@
+.table-header-component {
+  text-align: center;
+  background-color: #1E5168;
+  color: white;
+  .th-table-component {
+    padding: 20px;
+    border: 0px;
+
+    &:last-of-type {
+      text-align: left;
+    }
+  }
+}
+
+.td-table-component {
+  vertical-align: middle !important;
+  background-color: #FFFFFF;
+  border: none !important;
+  border-bottom: 1px solid #dee2e6 !important;
+  text-align: center;
+  color: #1E5168;
+  padding: 5px;
+
+  .activeUser {
+    border: 1px solid #1E5168;
+    width: 10vw;
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px;
+  }
+}
+
+.activeRow {
+  background-color: #FFFAF7;
+  font-weight: bold;
+  padding: 5px;
+}
